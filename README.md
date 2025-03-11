@@ -6,7 +6,7 @@
 ## DAO CONSTITUTION 
 
 ### PREAMBLE
-We, the members of Pasifika Web3 Tech Hub, establish this Decentralized Autonomous Organization (DAO) to create a thriving PASIFIKA token-powered DePIN (Decentralized Physical Infrastructure Network) marketplace for Pacific Island data, digital content, traditional knowledge, handicrafts, and local produce, honoring our cultural heritage while embracing technological innovation. Built on Linea's zkEVM Layer-2 technology and aligned with TachyonX's vision for AI-native infrastructure, this constitution serves as the foundational document governing our collective.
+We, the members of Pasifika Web3 Tech Hub, establish this Decentralized Autonomous Organization (DAO) to create a thriving PASIFIKA token-powered DePIN (Decentralized Physical Infrastructure Network) marketplace for Pacific Island data, digital content, traditional knowledge, handicrafts, and local produce, honoring our cultural heritage while embracing technological innovation. Built on Linea's zkEVM Layer-2 technology and aligned with 's vision for AI-native infrastructure, this constitution serves as the foundational document governing our collective.
 
 ### ARTICLE I: MISSION & VALUES
 
@@ -97,7 +97,7 @@ We, the members of Pasifika Web3 Tech Hub, establish this Decentralized Autonomo
 - **Verifiable Metadata System:** Comprehensive data layer for provenance and discovery
 - **Reputation Protocol:** Trust system for quality assurance
 - **Chainlink Oracle:** Price feeds and real-world data for the ecosystem
-- **AI Agent Infrastructure:** TachyonX-aligned autonomous systems for market operations
+- **AI Agent Infrastructure:** AI-aligned autonomous systems for market operations
 
 **4.2 Marketplace Categories:**
 - **Data Resources:**
@@ -144,7 +144,7 @@ We, the members of Pasifika Web3 Tech Hub, establish this Decentralized Autonomo
 - Physical goods tracked by dynamic NFTs that reflect location, condition, and ownership
 - Digital goods and services managed as dynamic NFTs with usage rights and conditions
 - Agricultural produce represented by dynamic NFTs that update with harvest status and freshness data
-- AI agents (aligned with TachyonX framework) facilitate automated market making and intent execution
+- AI agents (aligned with  framework) facilitate automated market making and intent execution
 - Providers set base pricing with DAO guidelines
 - Consumers pay in PASIFIKA tokens for all marketplace transactions
 - Chainlink Oracle ensures accurate price feeds and updates dynamic NFT states
@@ -251,7 +251,7 @@ We, the members of Pasifika Web3 Tech Hub, establish this Decentralized Autonomo
 - InterPlanetary File System (IPFS): Distributed storage for marketplace assets and dynamic NFT metadata
 - Decentralized Identifiers (DIDs): Identity verification for providers and products
 - IoT Sensor Networks: Physical data collection for updating dynamic NFT states
-- AI Agent Infrastructure: TachyonX-aligned systems for autonomous market operations
+- AI Agent Infrastructure: AI-aligned systems for autonomous market operations
 
 **6.3 Technical Capacity Building:**
 - Training programs for local token operations and management
