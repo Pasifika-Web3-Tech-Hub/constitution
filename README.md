@@ -93,7 +93,7 @@ We, the members of Pasifika Web3 Tech Hub, establish this Decentralized Autonomo
 
 **Digital Infrastructure:**
 - **PASIFIKA Token Governance Layer:** Token-based voting and staking system
-- **Linea zkEVM Layer-2:** Scalable marketplace and dynamic NFT platform
+- **Blockchain Layer-2:** Scalable marketplace and dynamic NFT platform
 - **Verifiable Metadata System:** Comprehensive data layer for provenance and discovery
 - **Reputation Protocol:** Trust system for quality assurance
 - **Chainlink Oracle:** Price feeds and real-world data for the ecosystem
@@ -132,14 +132,14 @@ We, the members of Pasifika Web3 Tech Hub, establish this Decentralized Autonomo
 
 **4.3 Ownership & Rights:**
 - Providers retain ownership of their data, content, and handicraft designs
-- All marketplace items are represented as dynamic NFTs on Linea zkEVM
+- All marketplace items are represented as dynamic NFTs on Blockchain
 - Dynamic NFTs update based on real-time conditions, availability, and state changes
 - Providers set terms for usage through Linea smart contracts
 - Cultural and traditional knowledge has special protections requiring approval from appropriate cultural authorities
 - Agricultural heritage and traditional farming practices receive special protection
 
 **4.4 Marketplace Mechanics:**
-- Smart contracts on Linea zkEVM automate transactions between providers and consumers
+- Smart contracts on Blockchain automate transactions between providers and consumers
 - All goods and services represented as dynamic NFTs that update based on real-world conditions
 - Physical goods tracked by dynamic NFTs that reflect location, condition, and ownership
 - Digital goods and services managed as dynamic NFTs with usage rights and conditions
@@ -246,7 +246,7 @@ We, the members of Pasifika Web3 Tech Hub, establish this Decentralized Autonomo
 
 **6.2 Technical Components:**
 - PASIFIKA Token: Native utility and governance token on Linea
-- Linea zkEVM Layer-2: Scalable, EVM-compatible chain for dynamic NFTs and marketplace functions
+- Blockchain Layer-2: Scalable, EVM-compatible chain for dynamic NFTs and marketplace functions
 - Chainlink Oracle: Secure price feeds and dynamic NFT state updates
 - InterPlanetary File System (IPFS): Distributed storage for marketplace assets and dynamic NFT metadata
 - Decentralized Identifiers (DIDs): Identity verification for providers and products
