@@ -50,7 +50,7 @@ We, the members of Pasifika Web3 Tech Hub, establish this Decentralized Autonomo
 **3.1 Token-Based Governance:**
 - The DAO is governed through the PASIFIKA token (PSF)
 - Voting power is determined by token holdings and staking duration
-- All votes are recorded on the Linea blockchain for transparency and security
+- All votes are recorded on the blockchain for transparency and security
 - Quadratic voting mechanisms ensure fair representation
 
 **3.2 Decentralized Governance Structure:**
@@ -134,7 +134,7 @@ We, the members of Pasifika Web3 Tech Hub, establish this Decentralized Autonomo
 - Providers retain ownership of their data, content, and handicraft designs
 - All marketplace items are represented as dynamic NFTs on Blockchain
 - Dynamic NFTs update based on real-time conditions, availability, and state changes
-- Providers set terms for usage through Linea smart contracts
+- Providers set terms for usage through smart contracts
 - Cultural and traditional knowledge has special protections requiring approval from appropriate cultural authorities
 - Agricultural heritage and traditional farming practices receive special protection
 
@@ -165,7 +165,7 @@ We, the members of Pasifika Web3 Tech Hub, establish this Decentralized Autonomo
 - Metadata is recognized as a critical asset that enhances discoverability, usability, and value
 - All marketplace listings must include comprehensive metadata to ensure proper categorization and searchability
 - Metadata serves as the foundation for the marketplace's search, filtering, and recommendation systems
-- Verifiable credentials stored on the Linea blockchain provide authenticity proofs
+- Verifiable credentials stored on the blockchain provide authenticity proofs
 
 **5.2 Required Metadata Elements:**
 - **For All Listings:**
@@ -245,7 +245,7 @@ We, the members of Pasifika Web3 Tech Hub, establish this Decentralized Autonomo
 - Renewable energy sources (solar, hydro, or other sustainable sources) prioritized for all operations
 
 **6.2 Technical Components:**
-- PASIFIKA Token: Native utility and governance token on Linea
+- PASIFIKA Token: Native utility and governance token on a Layer 2 blockchain
 - Blockchain Layer-2: Scalable, EVM-compatible chain for dynamic NFTs and marketplace functions
 - Chainlink Oracle: Secure price feeds and dynamic NFT state updates
 - InterPlanetary File System (IPFS): Distributed storage for marketplace assets and dynamic NFT metadata
@@ -266,7 +266,7 @@ We, the members of Pasifika Web3 Tech Hub, establish this Decentralized Autonomo
 - Digital documentation workshops for preserving traditional techniques
 - Marketing and pricing support for handicraft producers
 - Collaboration opportunities between data specialists and traditional knowledge holders
-- Training on Linea smart contract creation and management
+- Training on smart contract creation and management
 
 **7.2 Cultural Protection:**
 - Cultural IP protection framework for traditional designs and techniques
