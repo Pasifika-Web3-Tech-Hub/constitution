@@ -1,6 +1,6 @@
 # PASIFIKA WEB3 TECH HUB
 <p align="center">
- <img width="1000" src="https://github.com/Pasifika-Web3-Tech-Hub/constitution/blob/main/pasifika.png">
+ <img width="1000" src="/pasifika.png">
 </p>
 
 ## THE DAO CONSTITUTION 
