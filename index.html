@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASIFIKA WEB3 TECH HUB Membership Registration</title>
+    <link rel="icon" href="./pasifika.png" type="image/png">
+    <link rel="shortcut icon" href="./pasifika.png" type="image/png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo {
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #FFD700;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            background-color: #FFD700;
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+        .error {
+            color: red;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        .membership-info {
+            background-color: #f8f8f8;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            border-left: 4px solid #FFD700;
+        }
+        .membership-info h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .membership-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .membership-link {
+            display: inline-block;
+            background-color: #FFD700;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 4px;
+            text-decoration: none;
+            border: 1px solid #FFD700;
+            transition: all 0.3s ease;
+        }
+        .membership-link:hover {
+            background-color: #FFD700;
+            color: white;
+            transform: translateY(-1px);
+        }
+        .success-message {
+            display: none;
+            background-color: #FFD700;
+            color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            border: 1px solid #FFD700;
+        }
+        .constitution-link {
+            color: #FFD700;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .constitution-link:hover {
+            text-decoration: underline;
+        }
+        .constitution-banner {
+            background-color: #FFD700;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        .constitution-banner a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 2px solid white;
+            border-radius: 4px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .constitution-banner a:hover {
+            background-color: white;
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="./pasifika.png" alt="Pasifika Web3 Tech Hub Logo" class="logo">
+        <h1>Membership Registration</h1>
+    </div>
+    
+    <div class="constitution-banner">
+        <h2>PASIFIKA WEB3 TECH HUB Constitution</h2>
+        <p>Our organization is governed by our founding constitution, which outlines our principles, goals, and membership guidelines.</p>
+        <a href="https://github.com/Pasifika-Web3-Tech-Hub/constitution" target="_blank">READ THE CONSTITUTION</a>
+    </div>
+    
+    <div class="membership-info">
+        <h2>PASIFIKA WEB3 TECH HUB Membership</h2>
+        <p>Join our community dedicated to advancing Web3 technology across the Pacific Islands region. Our membership is guided by the principles outlined in our <a href="https://github.com/Pasifika-Web3-Tech-Hub/constitution" class="constitution-link" target="_blank">Constitution</a>.</p>
+        <p>As a member, you'll contribute to the development of decentralized technologies that empower Pacific Island communities and promote digital sovereignty across the region.</p>
+    </div>
+    
+    <div id="successMessage" class="success-message">
+        Thank you for registering! We'll be in touch soon about your membership application.
+    </div>
+    
+    <form action="https://formspree.io/f/mrbplzbd" method="POST" id="registrationForm">
+        <div class="form-group">
+            <label for="fullName">Full Name *</label>
+            <input type="text" id="fullName" name="fullName" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        
+        <div class="form-group">
+            <label for="organization">Organization/Company *</label>
+            <input type="text" id="organization" name="organization" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="role">Role/Position *</label>
+            <input type="text" id="role" name="role" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="membershipType">Membership Type *</label>
+            <select id="membershipType" name="membershipType" required>
+                <option value="">-- Select an option --</option>
+                <option value="Individual">Individual Member</option>
+                <option value="Organizational">Organizational Member</option>
+                <option value="Community">Community Representative</option>
+                <option value="Academic">Academic Institution</option>
+                <option value="Government">Government Entity</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="interests">Areas of Interest *</label>
+            <select id="interests" name="interests" required>
+                <option value="">-- Select your primary interest --</option>
+                <option value="Blockchain">Blockchain Development</option>
+                <option value="Decentralization">Decentralization Technologies</option>
+                <option value="Digital">Digital Sovereignty</option>
+                <option value="Community">Community Development</option>
+                <option value="Education">Education & Training</option>
+                <option value="Governance">Decentralized Governance</option>
+                <option value="Infrastructure">Technical Infrastructure</option>
+                <option value="Research">Research & Innovation</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="expectations">How do you hope to contribute to the PASIFIKA WEB3 TECH HUB? *</label>
+            <textarea id="expectations" name="expectations" rows="4" required></textarea>
+        </div>
+        
+        <div class="form-group">
+            <label for="constitution">
+                <input type="checkbox" id="constitution" name="constitution" required style="width: auto; margin-right: 10px;">
+                I have read and agree to abide by the <a href="https://github.com/Pasifika-Web3-Tech-Hub/constitution" class="constitution-link" target="_blank">PASIFIKA WEB3 TECH HUB Constitution</a> *
+            </label>
+        </div>
+        
+        <div class="form-group">
+            <button type="submit">Submit Application</button>
+        </div>
+    </form>
+
+    <script>
+        const form = document.getElementById('registrationForm');
+        const successMessage = document.getElementById('successMessage');
+        
+        form.addEventListener('submit', function(event) {
+            // Basic form validation
+            let isValid = true;
+            const requiredFields = form.querySelectorAll('[required]');
+            
+            requiredFields.forEach(field => {
+                // Remove any existing error messages
+                const existingError = field.parentNode.querySelector('.error');
+                if (existingError) {
+                    existingError.remove();
+                }
+                
+                if (!field.value.trim()) {
+                    isValid = false;
+                    const errorMsg = document.createElement('div');
+                    errorMsg.className = 'error';
+                    errorMsg.textContent = 'This field is required';
+                    field.parentNode.appendChild(errorMsg);
+                }
+            });
+            
+            if (!isValid) {
+                event.preventDefault();
+            }
+        });
+        
+        // Check if the form was successfully submitted (Formspree redirects back with ?success=true)
+        if (window.location.search.includes('success=true')) {
+            form.style.display = 'none';
+            successMessage.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
