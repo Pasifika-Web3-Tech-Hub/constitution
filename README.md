@@ -7,7 +7,7 @@
 ## THE DAO CONSTITUTION 
 
 ### PREAMBLE
-We, the members of Pasifika Web3 Tech Hub, establish this Decentralized Autonomous Organization (DAO) to create a thriving PASIFIKA token-powered DePIN (Decentralized Physical Infrastructure Network) marketplace for Pacific Island data, digital content, traditional knowledge, handicrafts, and local produce, honoring our cultural heritage while embracing technological innovation. Built on a Blockchain Layer-2 technology and aligned with's vision for AI-native infrastructure, this constitution serves as the foundational document governing our collective.
+We, the members of Pasifika Web3 Tech Hub, establish this Decentralized Autonomous Organization (DAO) to create a thriving PASIFIKA token-powered DePIN (Decentralized Physical Infrastructure Network) marketplace for Pacific Island data, digital content, traditional knowledge, handicrafts, and local produce, honoring our cultural heritage while embracing technological innovation. Built on a Blockchain Layer-2 technology and aligned with our vision for AI-native infrastructure, this constitution serves as the foundational document governing our collective.
 
 ### ARTICLE I: MISSION & VALUES
 
