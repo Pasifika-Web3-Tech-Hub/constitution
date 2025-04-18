@@ -71,23 +71,6 @@
             margin-top: 0;
             color: #333;
         }
-        .deadline-banner {
-            background-color: #333333;
-            color: white;
-            padding: 15px;
-            text-align: center;
-            border-radius: 4px;
-            margin-bottom: 20px;
-            border: 2px solid #FF5722;
-        }
-        .deadline-banner h3 {
-            margin-top: 0;
-            color: white;
-            background: linear-gradient(to right, #FF5722, #FF9800);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            display: inline-block;
-        }
         .eligibility-note {
             background-color: #f8f8f8;
             padding: 10px 15px;
@@ -128,6 +111,7 @@
         .constitution-link {
             background: linear-gradient(to right, #FF5722, #FF9800);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             font-weight: bold;
             text-decoration: none;
@@ -148,6 +132,7 @@
         .constitution-banner h2 {
             background: linear-gradient(to right, #FF5722, #FF9800);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             display: inline-block;
         }
@@ -161,6 +146,9 @@
             display: inline-block;
             margin-top: 10px;
             background: linear-gradient(to right, #FF5722, #FF9800);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         .constitution-banner a:hover {
             background: white;
@@ -172,22 +160,16 @@
 <body>
     <div class="header">
         <img src="./pasifika.png" alt="Pasifika Web3 Tech Hub Logo" class="logo">
-        <h1>Co-Founder Registration</h1>
-    </div>
-    
-    <div class="deadline-banner">
-        <h3>CO-FOUNDER DEADLINE</h3>
-        <p>Co-Founder Expression of Interest closes on April 30, 2025</p>
-        <p><strong>Proof of Concept (POC) launching on May 1, 2025</strong></p>
+        <h1>Membership Registration</h1>
     </div>
     
     <div class="eligibility-note">
-        IMPORTANT: To be eligible as a co-founder, you must have a legitimate LinkedIn profile that will be verified as part of the application process.
+        IMPORTANT: To be eligible as a member, you must have a legitimate LinkedIn profile that will be verified as part of the application process.
     </div>
     
     <div class="constitution-banner">
-        <h2>PASIFIKA WEB3 TECH HUB Constitution</h2>
-        <p>Our organization is governed by our founding constitution, which outlines our principles, goals, and membership guidelines.</p>
+        <h2>PASIFIKA WEB3 TECH HUB CONSTITUTION</h2>
+        <p>Our Constitution outlines our mission, values, and governance structure. All members are required to read and agree to our Constitution before joining.</p>
         <a href="https://github.com/Pasifika-Web3-Tech-Hub/constitution" target="_blank">READ THE CONSTITUTION</a>
     </div>
     
@@ -198,7 +180,7 @@
     </div>
     
     <div id="successMessage" class="success-message">
-        Thank you for registering as a Co-Founder! We'll be in touch soon about your membership application.
+        Thank you for registering as a Member! We'll be in touch soon about your membership application.
     </div>
     
     <form action="https://formspree.io/f/mwplaeor" method="POST" id="registrationForm">
@@ -218,7 +200,7 @@
         </div>
         
         <div class="form-group">
-            <label for="linkedin">LinkedIn Profile URL * (required for co-founder verification)</label>
+            <label for="linkedin">LinkedIn Profile URL * (required for member verification)</label>
             <input type="url" id="linkedin" name="linkedin" placeholder="https://www.linkedin.com/in/yourprofile" required>
         </div>
         
@@ -272,7 +254,7 @@
         </div>
         
         <div class="form-group">
-            <button type="submit">Submit Co-Founder Application</button>
+            <button type="submit">Submit Membership Application</button>
         </div>
     </form>
 
